@@ -1,12 +1,108 @@
 <!DOCTYPE HTML>
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-  <title>Jiayu Li</title>
+  <title>Jiayu Li's Homepage</title>
   
   <meta name="author" content="Jiayu (Cristi) Li">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery.scrollzer.min.js"></script>
+  <script src="js/jquery.scrolly.min.js"></script>
+  <script src="js/skel.min.js"></script>
+  <script src="js/skel-layers.min.js"></script>
+
+  <script type="text/javascript">
+    function toggle_vis(id) {
+      var e = document.getElementById(id);
+      if (e.style.display == 'none')
+        e.style.display = 'inline';
+      else
+        e.style.display = 'none';
+    }
+  </script>
+
+  <!-- <script src="js/init.js"></script> -->
+  <script src="js/carousel.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+<!--   <link rel="icon" type="image/png" href="images/xx.jpg"> -->
+
+
+  <style type="text/css">
+    .carousel {
+      -webkit-transform: translate3d(0, 0, 0);
+      background: rgba(0, 0, 0, 0.85);
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      display: none;
+      z-index: 1;
+    }
+
+    .img-center-carousel {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      padding: 0;
+      margin: auto;
+      width: 60%;
+      height: auto;
+    }
+
+    .carousel-close {
+      position: absolute;
+      top: 25px;
+      right: 100px;
+      padding: 0;
+      margin: auto;
+      width: 50px;
+      height: auto;
+    }
+
+    .research {
+      margin-bottom: 30px;
+    }
+
+    .research h4 {
+      float: left;
+    }
+
+    .research div {
+      text-align: end;
+      font-size: 0.9em;
+    }
+
+    .thumbnail {
+      width: 100%;
+      float: left;
+
+    }
+
+    .thumbnail-right {
+      margin-left: 35%;
+    }
+
+    #exp li {
+      margin-bottom: 50px;
+    }
+
+    .school-logo {
+      width: 6%;
+      float: left;
+    }
+
+    .school-text {
+      margin-left: 10%;
+      width: 60%;
+    }
+  </style>
+ <!--  <link rel="stylesheet" type="text/css" href="stylesheet.css"> -->
 <!-- 	<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>"> -->
 </head>
 
